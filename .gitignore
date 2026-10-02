@@ -1,0 +1,25 @@
+# Секреты
+.env
+*.passwords.txt
+.local/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# Frontend
+node_modules/
+frontend/dist/
+
+# Бэкапы БД
+backups/
+*.dump
+
+# IDE / OS / инструменты разработки
+.claude/
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
